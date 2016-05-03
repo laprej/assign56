@@ -24,7 +24,7 @@ The [Laplace Equation](https://en.wikipedia.org/wiki/Laplace%27s_equation) is a 
 Scientific codes such as this often exhibit a great deal of inherent computation that would benefit greatly from being parallelized.
 The current code compiles and executes but is very slow as it is only single-threaded.
 
-Your task is to insert appropriate OpenMP pragmas to run various parts of the code in parallel.
+Your task is to insert appropriate OpenMP pragmas into the `laplace_serial.c` C program to run various parts of the code in parallel.
 Your program should get faster without losing any accuracy.
 Use appropriate tools for your platform to verify that more than one CPU is being utilized.
 All of your pragmas *must include* `default(none)`, i.e., you must explicitly specify the scope of all OpenMP variables.
